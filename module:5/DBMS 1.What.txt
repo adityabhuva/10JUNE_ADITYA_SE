@@ -20,4 +20,17 @@ RDBMS
 ●Tables have an identifier called primary key and the data values are stored in the form of tables.
 ●Normalization is present.
 ●Supports distributed database.
-
+------------------------------------------------------
+4.what is mf codd rule of rdbms systems?
+Rule 1: Information rule
+Rule 2: Guaranted Access
+Rule 3: Systematic treatment of NULL
+Rule 4: Active Online Catalog
+Rule 5: Powerful and Well-Structured Language
+Rule 6: View Updation Rule
+Rule 7: Relational Level Operation
+Rule 8: Physical Data Independence
+Rule 9: Logical Data Independence
+Rule 10: Integrity Independence
+Rule 11: Distribution Independence
+Rule 12: Nonsubversion Rule
