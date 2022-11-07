@@ -34,3 +34,6 @@ Rule 9: Logical Data Independence
 Rule 10: Integrity Independence
 Rule 11: Distribution Independence
 Rule 12: Nonsubversion Rule
+----------------------------------------------------
+5.what do you understand by data redundancy
+Data redundancy is a condition created within a database or data storage technology in which the same piece of data is held in two separate places.
