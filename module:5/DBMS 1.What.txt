@@ -1,0 +1,22 @@
+DBMS
+
+1.What do you understand By Database.
+-> It is a software program that controls the organization,storage, management and retrieval of data in in database. it allows the user to add and modify the data in the database so that form and report also can be created.
+
+2.What is Normalization?
+->Database normalization or database normalisation is the process of structuring a relational database in accordance with a series of so-called normal forms in order to reduce data redundancy and improve data integrity. It was first proposed by British computer scientist Edgar F. Codd as part of his relational model.
+
+3.What is Difference between DBMS and RDBMS?
+->
+DBMS
+● applications store data as a file.
+●Data is generally stored either in a hierarchical form or in a navigational form.
+●Normalization is not present.
+●Does not support distributed database.
+-----------------------------
+RDBMS
+● applications store data in a tabular form.
+●Tables have an identifier called primary key and the data values are stored in the form of tables.
+●Normalization is present.
+●Supports distributed database.
+
