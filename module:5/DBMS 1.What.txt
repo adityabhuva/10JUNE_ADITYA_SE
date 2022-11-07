@@ -1,7 +1,8 @@
 DBMS
 
 1.What do you understand By Database.
--> It is a software program that controls the organization,storage, management and retrieval of data in in database. it allows the user to add and modify the data in the database so that form and report also can be created.
+-> It is a software program that controls the organization,storage, management and retrieval of data in in database. 
+it allows the user to add and modify the data in the database so that form and report also can be created.
 
 2.What is Normalization?
 ->Database normalization or database normalisation is the process of structuring a relational database in accordance with a series of so-called normal forms in order to reduce data redundancy and improve data integrity. It was first proposed by British computer scientist Edgar F. Codd as part of his relational model.
