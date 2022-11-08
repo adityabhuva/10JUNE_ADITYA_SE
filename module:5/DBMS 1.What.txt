@@ -45,3 +45,12 @@ Embedded DML Pre-compiler: It processes DML statements embedded in an applicatio
 -----------------------------------------------
 7.what is dml compiler in sql?
 ->DML compiler translates DML statements in a query language into a low-level instruction and the generated instruction can be understood by Query Evaluation Engine
+8.What is SQL Key Constraints writing an Example of SQL Key Constraints
+->
+NOT NULL - Ensures that a column cannot have a NULL value
+UNIQUE - Ensures that all values in a column are different
+PRIMARY KEY - A combination of a NOT NULL and UNIQUE. Uniquely identifies each row in a table
+FOREIGN KEY - Prevents actions that would destroy links between tables
+CHECK - Ensures that the values in a column satisfies a specific condition
+DEFAULT - Sets a default value for a column if no value is specified
+CREATE INDEX - Used to create and retrieve data from the database very quickly
