@@ -1,16 +1,31 @@
 #include<iostream>
 using namespace std;
-float pi=3.141;
-void add(int a,int b,int c,int d,int e)
+class overloading
 {
-	cout<<" area of circle= "<<(a*a*pi)<<endl;
-	cout<<" area of rectangli = "<<(b*c)<<endl;
-	cout<<" area of triangle = "<<(0.5*d*e)<<endl;
-	
-}
-
+    public:
+    int data(int a , int b)
+    {
+        
+        return a*b;
+    }
+    int data(int a, double b)
+    {
+        
+        return 0.5*a*b;
+    }
+    int data(int r)
+    {
+        return 3.14*r*r;
+    }
+   
+};
 int main()
 {
-
-	add(2,5,5,6,7);
+    overloading obj;
+    
+    cout<<"Area of Rectangle is : "<<obj.data(10,20)<<endl;
+    cout<<"Area of Triangle is : "<<obj.data(10,20.5)<<endl;
+    cout<<"Area of Circle is : "<<obj.data(10)<<endl;
+    return 0;
+   
 }
