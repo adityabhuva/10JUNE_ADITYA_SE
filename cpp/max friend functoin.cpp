@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 class swape{
-    int a, b, t;
+    int a, b;
     public:
     friend int values(swape frnd);
 };
