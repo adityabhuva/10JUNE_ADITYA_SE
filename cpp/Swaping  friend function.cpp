@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 class swape{
-    int a, b, t;
+    int a, b;
     public:
     friend int values(swape frnd);
 };
@@ -11,9 +11,9 @@ int values(swape frnd)
     cin>>frnd.a;
     cout<<"Enter value of b:"<<endl;
     cin>>frnd.b;
-    frnd.t = frnd.a;
-    frnd.a = frnd.b;
-    frnd.b = frnd.t;
+    frnd.a = frnd.a+frnd.b;
+    frnd.b = frnd.a-frnd.b;
+    frnd.a = frnd.a-frnd.b;
     cout<<"Enter value of a:"<<frnd.a<<endl;
     cout<<"Enter value of b:"<<frnd.b<<endl;
     return 0;
