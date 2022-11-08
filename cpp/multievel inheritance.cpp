@@ -1,53 +1,54 @@
 #include<iostream>
 using namespace std;
 		
-		int a,b,c,roll,mark_1,mark_2,mark1,mark2,t;
-class students
+		
+class student
 {
 	public:
-		 Batch_1()
+	int roll,mark_1,mark_2,t;
+	string a;
+		 int Batch_1()
 		 {
 		 	cout<<"Enter students name: ";
-		 	cin>>a>>b;
+		 	cin>>a;
+            cout<<"Enter roll number:"<<endl;
+			cin>>roll;
+			return 0;
 		 }
 };
-class Batch_2:public students
+class score :public student
 {
 	public:
-		Batch_2()
+	int	Batch_2()
 		{
-			cout<<"Enter roll number:"<<endl;
-			cin>>roll;
+		    
+			cout<<"Enter 1st subject mark:"<<endl;
+			cin>>mark_1;
+			cout<<"Enter 2st subject mark:"<<endl;
+			cin>>mark_2;
+			return 0;
 		}
 };
-class Batch_3:public Batch_2
+class result:public score
 {
 	public:
-		Batch_3()
+		int Batch_3()
 		{
-			cout<<" Enter 1__students mark:"<<endl;
-			cin>>mark_1>>mark_2;
-			cout<<mark1<<mark_1+mark_2;
-			cout<<t<<mark1/2;
-		//	cout<<"1__students"<<Batch_2.Batch_3(t);
-			
-			cout<<" Enter 2_students mark:";
-			cin>>mark_1>>mark_2;
-			cout<<mark2<<mark_1+mark_2;
-			cout<<t<<mark2/2;
-		//	cout<<"2__students"<<Batch_3.Batch_3(t);
-			
+		   t =	mark_1+mark_2;
+		   cout<<"Total of two subject is : "<<t;
+		    return 0;
 		}
 	
 };
 int main()
 {
-	Batch_3 b1;
-
+	result b1;
 	b1.Batch_1();
+	b1.Batch_2();
+	b1.Batch_3();
+
 	
 	return 0;
 	
 
 }
-
