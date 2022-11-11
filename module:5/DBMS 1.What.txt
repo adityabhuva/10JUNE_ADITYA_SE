@@ -54,3 +54,8 @@ FOREIGN KEY - Prevents actions that would destroy links between tables
 CHECK - Ensures that the values in a column satisfies a specific condition
 DEFAULT - Sets a default value for a column if no value is specified
 CREATE INDEX - Used to create and retrieve data from the database very quickly
+-----------------------------------------------
+9-What is trigger and how to create a Trigger in SQL? 
+->A trigger is a special type of stored procedure that automatically runs when an event occurs in the database server.
+DML triggers run when a user tries to modify data through a data manipulation language (DML) event. 
+DML events are INSERT, UPDATE, or DELETE statements on a table or view. 
